@@ -7,12 +7,12 @@ html {
   font-family: "Montserrat", sans-serif;
 }
 body {
-  background: #eee;
+  background: #f6f6f6;
   padding: 0 16px;
 }
 
 header {
-  background-color: #f5ba13;
+  background-color: #ffb6c1;
   margin: auto -16px;
   padding: 16px 32px;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
@@ -20,7 +20,6 @@ header {
 
 header h1 {
   color: #fff;
-  font-family: "McLaren", cursive;
   font-weight: 200;
 }
 
