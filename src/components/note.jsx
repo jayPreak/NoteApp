@@ -1,9 +1,14 @@
 import React from "react";
 
-function Note() {
+function Note(props) {
+    function handleClick() {
+        props.onDelete(props.id)
+    }
+
     return <div className="note">
-        <h1>Chinki chhurimaar</h1>
-        <p>ATTENTION COMRADES!!!! 同志們注意了 THIS IS TO INFORM YOU THAT YOU MUST SUBMIT YOURSELF TO THE CHINESE COMMUNIST PARTY!!!!! </p>
+        <h1>{props.title}</h1>
+        <p>{props.content}</p>
+        <button onClick={handleClick}>DELETE</button>
     </div>
 }
 
