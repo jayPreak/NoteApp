@@ -1,4 +1,4 @@
-# yepkeep
+# Notes App using React
 ### `npm install`
 ### `npm start`
 
